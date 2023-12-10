@@ -25,7 +25,7 @@ public class SpotifyApiController {
         if (response != null) {
 //            httpServletResponse.setHeader("Location", "http://localhost:8080/landing");
 //            httpServletResponse.setStatus(302);
-            return ResponseEntity.status(HttpStatus.FOUND).location(URI.create("http://mypartylist.s3-website-us-east-1.amazonaws.com/landing")).build();
+            return ResponseEntity.status(HttpStatus.FOUND).location(URI.create("https://partylist.snohhtml.com/landing")).build();
 
         }
 
